@@ -5,6 +5,7 @@ import iconFullyCustomizable from "/assets/images/icon-fully-customizable.svg"
 
 const Testimonials = () => {
   return (
+    
     <section className="bg-gray-100 py-20 -mt-10">
       <caption className="headline-and-pargraph flex flex-col mt-10 px-5 items-center gap-5">
         <h2 className="text-3xl text-Custom-Very-Dark-Blue font-bold lg:text-5xl">
