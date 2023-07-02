@@ -20,7 +20,7 @@ function App() {
       )
       setShortUrl(response.data.result.full_short_link)
     } catch (error) {
-      console.error("There was an issue with the API-Request: ", error)
+      alert(`There was an issue with the API-Request: ${error} Please only enter the URL which you want to shorten`)
     }
   }
 
