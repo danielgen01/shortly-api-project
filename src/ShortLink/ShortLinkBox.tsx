@@ -83,7 +83,7 @@ type shortedLinkProps = {
 const ShortedLinkComp: React.FC<shortedLinkProps> = ({ url, shortUrl }) => {
   return (
     <section className=" h-10 w-screen results flex justify-between relative top-10 left-[10%] ">
-      <div className="bg-white grid grid-cols-2 md:grid-cols-3 place-items-center px-2">
+      <div className="bg-white grid grid-cols-2 md:grid-cols-3 place-items-center px-2 w-screen">
         <p className="hidden lg:block">{url}</p>
 
         <a
