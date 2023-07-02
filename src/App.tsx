@@ -11,6 +11,8 @@ function App() {
   const [url, setUrl] = useState("")
   const [shortUrl, setShortUrl] = useState("")
 
+  // AXIOS call to the shortenAPI 
+
   const shortenUrl = async () => {
     try {
       const response = await axios.get(
