@@ -2,8 +2,6 @@ import {
   AiFillFacebook,
   AiOutlineTwitter,
   AiOutlineInstagram,
-  AiFillTwitterCircle,
-  AiFillInstagram,
 } from "react-icons/ai"
 import { BsPinterest } from "react-icons/bs"
 
